@@ -41,7 +41,7 @@ Para criar um arquivo dentro do git pela primeira vez, primeiro devemos configur
 
 - git config --global user.name "nome que a conta foi criado no github"
 
-Até aqui vemos um pouco sobre o Git e Github, para um melhor esclarecimento e conhecimento devemos assistir as aulas disponíveis no site da dia no bootcamp da TQI, onde lá fala mais sobre o Git e GitHub.
+Até aqui vimos um pouco sobre o Git e Github, para um melhor esclarecimento e conhecimento devemos assistir as aulas disponíveis no site da dia no bootcamp da TQI, onde lá fala mais sobre o Git e GitHub.
 
 
 
