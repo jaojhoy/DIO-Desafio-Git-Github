@@ -29,7 +29,7 @@ Para usar o Git em sua máquina, primeiro devemos fazer a instalação do mesmo 
 
 Aprendemos também sobre o sha1, que é algo muito importante para a criptografia, onde a encriptação gera um conjunto de caracteres identificador de 40 dígitos.
 
-o  sha1 tem toda uma estrutura por traz, para mais devemos retornar a aula 3, onde podemos ver como o git funciona por debaixo dos panos.
+o  sha1 tem toda uma estrutura por trás, para mais devemos retornar a aula 3, onde podemos ver como o git funciona por debaixo dos panos.
 
 Aprendemos também sobre a criação da chave ssh e do token na plataforma github, os dois foram criados para reconhecer a máquina na hora de enviar os arquivos para a nuvem. Para criar a chave devemos digitar ssh-keygen - t ed25519 - C "email do github". Para achar a chave devemos digitar cd /c/ users / nome de usuário / ssh /, depois ls para listar os arquivos e digitar cat id_ed25519.pub, nisso vai te gerar uma chave, basta copiar a mesma e jogar no github.
 
@@ -41,7 +41,7 @@ Para criar um arquivo dentro do git pela primeira vez, primeiro devemos configur
 
 - git config --global user.name "nome que a conta foi criado no github"
 
-Até aqui vemos um pouco sobre o Git e Github, para um melhor esclarecimento e conhecimento devemos assistir as aulas disponíveis no site da dia no bootcamp da TQI, onde lá fala mais sobre o Git e GitHub.
+Até aqui vimos um pouco sobre o Git e Github, para um melhor esclarecimento e conhecimento devemos assistir as aulas disponíveis no site da DIO no BootCamp TQI, onde lá fala mais sobre o Git e GitHub.
 
 
 
