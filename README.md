@@ -1,6 +1,6 @@
 # DIO-Desafio-Git-Github
 
-## Aqui Abordaremos alguns conceito sobre o Git/GitHub.
+## Aqui Abordaremos alguns conceitos sobre o Git/GitHub.
 
 ### Links Úteis 
 
