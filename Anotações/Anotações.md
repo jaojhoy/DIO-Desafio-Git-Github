@@ -27,13 +27,13 @@ Para usar o Git em sua máquina, primeiro devemos fazer a instalação do mesmo 
 - git push - enviar arquivos para o repositório remoto 
 - git pull - atualiza os arquivos para evitar conflito
 
-Aprendemos também sobre o sha1, que é algo muito importante para a criptografia, onde a encriptação gera um conjunto de 40 caracteres identificador de 40 dígitos.
+Aprendemos também sobre o sha1, que é algo muito importante para a criptografia, onde a encriptação gera um conjunto de caracteres identificador de 40 dígitos.
 
 o  sha1 tem toda uma estrutura por traz, para mais devemos retornar a aula 3, onde podemos ver como o git funciona por debaixo dos panos.
 
-Aprendemos também sobre a criação da chave ssh e do token na plataforma github, os dois foram criados para reconhecer a máquina na hora de enviar os arquivos para a nuvem. Para validar a chave devemos digitar cd /c/ users / nome de usuário / ssh /, depois ls para listar os arquivos e digitar catr id_ed25519.pub, nisso vai te gerar uma chave, basta copiar a mesma e jogar no github.
+Aprendemos também sobre a criação da chave ssh e do token na plataforma github, os dois foram criados para reconhecer a máquina na hora de enviar os arquivos para a nuvem. Para criar a chave devemos digitar ssh-keygen - t ed25519 - C "email do github". Para achar a chave devemos digitar cd /c/ users / nome de usuário / ssh /, depois ls para listar os arquivos e digitar cat id_ed25519.pub, nisso vai te gerar uma chave, basta copiar a mesma e jogar no github.
 
-Depois devemos ir no git bash novamente e digitar pwd - para mostrar o caminho completo, ls para listar os arquivos, e iniciar o agente ssd, para isso digite eval $(ssh-agent-s), depois disso digita ssh-add id_ed25519, depois desse processo precisamos validar a mesma e para isso adicionam os o clone do site github, digita  git clone "caminho da chave copiada" e damos enter após isso irá perguntar se quer continuar e devemos digitar y para aceitar.
+Depois devemos ir no git bash novamente e digitar pwd - para mostrar o caminho completo, ls para listar os arquivos, e iniciar o agente ssd, para isso digite eval $(ssh-agent-s), depois disso digita ssh-add id_ed25519, depois desse processo precisamos validar a mesma e para isso adicionamos o clone do site github, digita  git clone "caminho da chave copiada" e damos enter após isso irá perguntar se quer continuar e devemos digitar y para aceitar.
 
 Para criar um arquivo dentro do git pela primeira vez, primeiro devemos configurar o mesmo, para isso devemos:
 
